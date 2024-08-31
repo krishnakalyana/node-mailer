@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false, // Set to true for TLS, false for STARTTLS (refer to Gmail's documentation)
   auth: {
-    user: "krishnaxtrm@gmail.com",
+    user: "johndoe.com",
     pass: "mwfu lkjf rhkq odlk", //
   },
 });
@@ -20,8 +20,8 @@ async function sendEmail() {
 
     // email options
     const mailOptions = {
-      from: "krishnaxtrm@gmail.com",
-      to: "Krishnak@sociosquares.com",
+      from: "johndoe@gmail.com",
+      to: "bhupendrajogi@us.com",
       subject: "Test email",
       html: htmlContent,
     };
